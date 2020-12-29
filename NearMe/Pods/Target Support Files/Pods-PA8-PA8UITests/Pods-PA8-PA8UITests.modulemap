@@ -1,0 +1,6 @@
+framework module Pods_PA8_PA8UITests {
+  umbrella header "Pods-PA8-PA8UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
