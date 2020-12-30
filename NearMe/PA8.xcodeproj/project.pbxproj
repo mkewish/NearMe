@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,8 +20,6 @@
 		2390D5C2257DE97100183294 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390D5C1257DE97100183294 /* PlaceDetailViewController.swift */; };
 		2390D6182580907B00183294 /* GoogleMapsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390D6172580907B00183294 /* GoogleMapsAPI.swift */; };
 		2DE71CB1871E3B62E192FF84 /* Pods_PA8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF032B6E2FF4FFBC211E81C /* Pods_PA8.framework */; };
-		EB976A51DBF1C15019596722 /* Pods_PA8Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2E16FC28140B3D0981E2FB /* Pods_PA8Tests.framework */; };
-		F1F9239E0E243C036302F470 /* Pods_PA8_PA8UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D763226C50B5C4CF1BDFFEB /* Pods_PA8_PA8UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,12 +60,6 @@
 		2390D5C1257DE97100183294 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 		2390D6172580907B00183294 /* GoogleMapsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsAPI.swift; sourceTree = "<group>"; };
 		2EF032B6E2FF4FFBC211E81C /* Pods_PA8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PA8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		617AF0F2B47027FFA39F2D40 /* Pods-PA8Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PA8Tests.debug.xcconfig"; path = "Target Support Files/Pods-PA8Tests/Pods-PA8Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A2E16FC28140B3D0981E2FB /* Pods_PA8Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PA8Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D763226C50B5C4CF1BDFFEB /* Pods_PA8_PA8UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PA8_PA8UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A96DA56834306191D99762CB /* Pods-PA8Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PA8Tests.release.xcconfig"; path = "Target Support Files/Pods-PA8Tests/Pods-PA8Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C9F83A338C7FC87FD39B1FAA /* Pods-PA8-PA8UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PA8-PA8UITests.debug.xcconfig"; path = "Target Support Files/Pods-PA8-PA8UITests/Pods-PA8-PA8UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE083F3A2E2C5E854FE33C46 /* Pods-PA8-PA8UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PA8-PA8UITests.release.xcconfig"; path = "Target Support Files/Pods-PA8-PA8UITests/Pods-PA8-PA8UITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA78E87F81AE105D8735ABA2 /* Pods-PA8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PA8.debug.xcconfig"; path = "Target Support Files/Pods-PA8/Pods-PA8.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB976A51DBF1C15019596722 /* Pods_PA8Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F9239E0E243C036302F470 /* Pods_PA8_PA8UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				2EF032B6E2FF4FFBC211E81C /* Pods_PA8.framework */,
-				9D763226C50B5C4CF1BDFFEB /* Pods_PA8_PA8UITests.framework */,
-				7A2E16FC28140B3D0981E2FB /* Pods_PA8Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +160,7 @@
 			children = (
 				EA78E87F81AE105D8735ABA2 /* Pods-PA8.debug.xcconfig */,
 				073E901CEA86AEDF8B561ED8 /* Pods-PA8.release.xcconfig */,
-				C9F83A338C7FC87FD39B1FAA /* Pods-PA8-PA8UITests.debug.xcconfig */,
-				DE083F3A2E2C5E854FE33C46 /* Pods-PA8-PA8UITests.release.xcconfig */,
-				617AF0F2B47027FFA39F2D40 /* Pods-PA8Tests.debug.xcconfig */,
-				A96DA56834306191D99762CB /* Pods-PA8Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,7 +190,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2390D5AA257D943900183294 /* Build configuration list for PBXNativeTarget "PA8Tests" */;
 			buildPhases = (
-				1F9ABEADD6B5543028D189A5 /* [CP] Check Pods Manifest.lock */,
 				2390D58F257D943900183294 /* Sources */,
 				2390D590257D943900183294 /* Frameworks */,
 				2390D591257D943900183294 /* Resources */,
@@ -226,11 +208,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2390D5AD257D943900183294 /* Build configuration list for PBXNativeTarget "PA8UITests" */;
 			buildPhases = (
-				481508D74B39C3E3A7485942 /* [CP] Check Pods Manifest.lock */,
 				2390D59A257D943900183294 /* Sources */,
 				2390D59B257D943900183294 /* Frameworks */,
 				2390D59C257D943900183294 /* Resources */,
-				29D02A2577BF2EB2F18E2630 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,70 +314,9 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1F9ABEADD6B5543028D189A5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PA8Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29D02A2577BF2EB2F18E2630 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PA8-PA8UITests/Pods-PA8-PA8UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PA8-PA8UITests/Pods-PA8-PA8UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PA8-PA8UITests/Pods-PA8-PA8UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		481508D74B39C3E3A7485942 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PA8-PA8UITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A748CCA4F7C262EF2C93A5FA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -602,7 +521,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PA8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,6 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.PA8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -621,7 +543,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PA8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -629,6 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.PA8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -636,7 +561,6 @@
 		};
 		2390D5AB257D943900183294 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 617AF0F2B47027FFA39F2D40 /* Pods-PA8Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,7 +582,6 @@
 		};
 		2390D5AC257D943900183294 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A96DA56834306191D99762CB /* Pods-PA8Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -680,7 +603,6 @@
 		};
 		2390D5AE257D943900183294 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F83A338C7FC87FD39B1FAA /* Pods-PA8-PA8UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -700,7 +622,6 @@
 		};
 		2390D5AF257D943900183294 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE083F3A2E2C5E854FE33C46 /* Pods-PA8-PA8UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

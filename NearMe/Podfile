@@ -8,13 +8,13 @@ target 'PA8' do
   # Pods for PA8
     pod 'MBProgressHUD'
     
-  target 'PA8Tests' do
-    inherit! :search_paths
+  #target 'PA8Tests' do
+    #inherit! :search_paths
     # Pods for testing
-  end
+  #end
 
-  target 'PA8UITests' do
+  #target 'PA8UITests' do
     # Pods for testing
-  end
+  #end
 
 end
