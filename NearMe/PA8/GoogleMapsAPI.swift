@@ -10,7 +10,7 @@ import Foundation
 
 struct GoogleMapsAPI {
    
-    static let key = "AIzaSyDtCphazwit1m2YkFHm_c3vxbGEhNFOGxg"
+    static let key = "<INSERT API KEY HERE>"
     static let nearbyURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     static let detailsURL = "https://maps.googleapis.com/maps/api/place/details/json"
     static let photosURL = "https://maps.googleapis.com/maps/api/place/photo"
