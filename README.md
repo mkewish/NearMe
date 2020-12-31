@@ -10,4 +10,4 @@ Selecting a nearby place will segue into a details page which will display the p
 
 If the user changes location, their location can be refreshed using the refresh button.
 
-**Note:** Must have Xcode installed and a Google Maps API key.
+**Note:** Must have Xcode installed and a valid Google Maps API key.
